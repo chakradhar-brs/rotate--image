@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrix Rotation</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="matrixContainer">
+      <h1>Matrix Rotation</h1>
+      <p>
+        To rotate a square matrix and display the rotated matrix in a browse
+      </p>
+      <div id="matrixInput">
+        <label for="matrix">Enter Matrix:</label>
+        <textarea
+          id="matrix"
+          rows="3"
+          cols="3"
+          placeholder="          1,2,3
+          4,5,6
+          7,8,9"
+        ></textarea>
+        <button
+          type="button"
+          class="btn btn-info"
+          id="matrix"
+          onclick="rotateMatrix()"
+        >
+          Rotate Matrix
+        </button>
+        <div id="rotatedMatrix"></div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
